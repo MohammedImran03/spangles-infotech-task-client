@@ -64,7 +64,7 @@ const Compos = () => {
 <div class="d-flex justify-content-center" style={{width:"25rem"}}>
  <div className='d-flex flex-column'>
     <div className='m-1 '><h4>{productList.productname}</h4></div>
-    <div className='m-1 '><h5>{productList.Price_range}</h5></div>
+    <div className='m-1 '><h6>{productList.Price_range}</h6></div>
     <div>
         Size : {Object.keys(Size).map((val,ind)=>{
     return(
